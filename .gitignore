@@ -6,3 +6,5 @@ log
 *.patch
 
 
+/patch/patch8/
+/log/
