@@ -3,13 +3,14 @@ package ru.javawebinar.topjava.util;
 import org.springframework.lang.Nullable;
 import org.springframework.util.StringUtils;
 
+import javax.servlet.http.HttpServlet;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
-public class DateTimeUtil {
+public class DateTimeUtil extends HttpServlet {
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
     // DB doesn't support LocalDate.MIN/MAX
