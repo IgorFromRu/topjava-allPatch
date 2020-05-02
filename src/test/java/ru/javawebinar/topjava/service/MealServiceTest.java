@@ -16,7 +16,7 @@ import ru.javawebinar.topjava.util.exception.NotFoundException;
 import java.time.LocalDate;
 import java.time.Month;
 
-import static ru.javawebinar.topjava.MealTestData.*;
+import static ru.javawebinar.topjava.service.MealTestData.*;
 import static ru.javawebinar.topjava.service.UserTestData.ADMIN_ID;
 import static ru.javawebinar.topjava.service.UserTestData.USER_ID;
 
